@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Greed</string>
+    <string name="action_rules">Rules</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="description_dice_1">Dice number 1</string>
+    <string name="description_dice_2">Dice number 2</string>
+    <string name="description_dice_3">Dice number 3</string>
+    <string name="description_dice_4">Dice number 4</string>
+    <string name="description_dice_5">Dice number 5</string>
+    <string name="description_dice_6">Dice number 6</string>
+    <string name="text_save">Save</string>
+    <string name="text_score">Score</string>
+    <string name="text_roll">Roll</string>
+    <string name="text_player2">Player 2</string>
+    <string name="text_player1">Player 1</string>
+    <string name="text_pseudo_foe">Average Joe</string>
+    <string name="mrawesome">NINETWOZERO</string>
+    <string name="text_rolling">Rolling&#8230;</string>
+    <string name="text_combo">Combo</string>
+    <string name="text_none">None</string>
+    <string name="text_player2_opt">Player 2 (optional)</string>
+    <string name="text_start_game">Start game</string>
+    <string name="text_error_name">Enter your name</string>
+    <string name="text_rules">Rules for &lt;b>Greed The Game&lt;/b>:&lt;br />
+&lt;br />The game is a dice game frequently played with two players or more, and consists of six dice being rolled and the players trying to achieve different combinations.&lt;br />
+&lt;br />As a player, your goal is to reach the set score limit (usually 10,000 points) in as few rounds as possible. If the users roll value doesn\'t amount to more than a given "minimum value" (usually 300 points), then the current round ends and the turn goes over to the opponent.&lt;br />
+&lt;br />The following scoring combos are available:&lt;br/>
+&lt;b>* Three of a kind&lt;/b> (200-600 points (face x 100), except for 1\'s which give 1,000 in total)&lt;br />
+&lt;b>* Singlets of 1\'s and 5\'s&lt;/b> (100 and 50 points)&lt;br />
+&lt;b>* A 1-6 Straight&lt;/b> (1,000 points)&lt;br />
+&lt;br />The game ends when the score limit has been reached by one of the players, thus rendering him/her victorious.&lt;br /></string>
+    <string name="text_no_rules">No rules found.</string>
+    <string name="text_roll_below_limit" formatted="false">You need more than %s to continue (%s on the table)</string>
+    <string name="text_roll_greedy" formatted="false">You became too greedy and lost %s points&#8230;</string>
+    <string name="text_win_score" formatted="false">The game was beat in &lt;b>%s&lt;/b> rounds (&lt;b>%s&lt;/b> rolls), with a score of &lt;b>%s&lt;/b>.</string>
+    <string name="text_win_info" formatted="false">Congratulations &lt;b>%s&lt;/b>, you beat the game! And, more so, you beat the game in its own backyard. Good job!</string>
+    <string name="text_restart_same_params">Restart with the same settings</string>
+    <string name="text_quit_to_main">Back to the main menu</string>
+    <string name="text_roll_under_limit">You didn\'t select enough to continue rolling&#8230;</string>
+    <string name="text_num_rounds"># rounds</string>
+    <string name="text_num_rolls"># rolls</string>
+    <string name="text_player">Player</string>
+    <string name="text_roll_no_selection">You didn\'t select any dice during the round.</string>
+    <string name="text_form_error">An error was detected in the form.</string>
+    <string name="text_roll_scored_all">You scored all the dice, new ones coming up.</string>
+    <string name="text_roll_dare_to_roll">I dare you to roll again. ;-)</string>
+    <string name="text_hint_limit">Save limit (default 300)</string>
+    <string name="text_hint_win_score">Win score (default 10000)</string>
+    <string name="text_show_advanced">Show advanced settings</string>
+
+</resources>

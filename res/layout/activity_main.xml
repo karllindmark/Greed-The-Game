@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/string_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="64sp" />
+
+        <EditText
+            android:id="@+id/field_player1"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="@string/text_player1"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:id="@+id/wrap_advanced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/field_player2"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/text_player2_opt"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/field_win_score"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/text_hint_win_score"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/field_save_limit"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="@string/text_hint_limit"
+                android:inputType="number"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_show_advanced" />
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/text_start_game" />
+    </LinearLayout>
+
+</ScrollView>
